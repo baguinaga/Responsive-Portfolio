@@ -1,2 +1,2 @@
 # Responsive-Portfolio
-Basic-portfolio repo updated with CSS media queries
+Basic-Portfolio repository updated with CSS media queries to create a container responsive website.

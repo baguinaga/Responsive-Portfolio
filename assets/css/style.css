@@ -4,6 +4,7 @@ body {
   line-height: 34px;
   color: #777;
   background: url("../images/concrete_seamless.png");
+  margin: 0;
 }
 
 * {
@@ -215,3 +216,87 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* media queries */
+
+/* screenwidth: 980px and below*/
+@media screen and (max-width: 980px) {
+  nav {
+    margin-left: 0%;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .main-section {
+    width: 80%;
+    margin: 0 10% 5% 10%;
+  }
+
+  .work {
+    width: 46%;
+  }
+
+  #masthead {
+    margin:0;
+  }
+}
+
+/* screen width: 768px */
+@media screen and (max-width: 768px) {
+  nav {
+    margin-left: 5%;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .main-section {
+    width: 90%;
+    margin: 0 5% 5% 5%;
+  }
+
+  .work {
+    width: 46%;
+  }
+  
+  #masthead {
+    margin:0;
+  }
+}
+
+/* screen width: 640px */
+
+@media screen and (max-width: 640px) {
+  nav {
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 1%;
+    width: 100%;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .main-section {
+    width: 90%;
+    margin: 5% 5% 10% 5%;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+  #logo {
+    width: 100%;
+  }
+
+  #masthead {
+    margin:0;
+  }
+
+}
+
